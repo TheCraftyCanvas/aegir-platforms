@@ -2,6 +2,11 @@
 *.tar.gz
 *.zip
 
+# Ignore local server-side config.
+.bashrc
+.composer/*
+.drush/*
+
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 
